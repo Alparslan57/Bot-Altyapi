@@ -267,12 +267,7 @@ client.on("message", async (msg, member, guild) => {
     }
   }
 });
-/*Merhabalar. Ben yusuf yaklaşık 3 yıldır uğraştığım bot kodlama ile ilgili merağım sona erdi ve bu botu size hediye ediyorum.
-Botta hiç bir sıkıntı yok çoğu kodlar benim tarafımdan fakat bazı kodlar ise alıntıdır. (10 Kod civarı)
-Token girip site işlemlerinizi hallettikten sonra bot & sitesi açılacaktır.
-Unutmayın vortex sıradan bir bot değildir VIP bot olan vortexi sizlere armağan ediyorum
-Bu iyliğimi unutmayın hata olursa Cod are daha detaylı zor hata olursa Yusuf K Dev.#3004 ulaşınız  
-Botu kuramadıysanız kimseye ücret vermeyin kurulumunu cod are yapar.*/
+
 client.on("message", async msg => {
   const request = require("node-superfetch");
   const db = require("quick.db");
@@ -2571,5 +2566,5 @@ client.on("roleUpdate", async(oldRole, newRole) => {
   
 });
 
-  
+
 client.login(""); //tırnak arasına bot tokeni girin.
